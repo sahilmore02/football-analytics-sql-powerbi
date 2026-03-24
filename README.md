@@ -50,21 +50,25 @@ This project covers the full pipeline:
 
 ## 📷 Dashboard Preview
 
-### 🟦 League Standings
+### 🏟️ Teams
 
-![Standings](Standings.png)
+![Teams](Teams.png)
+
+### 🧍 Players Data
+
+![Players](Players.png)
 
 ### ⚽ Matches Data
 
 ![Matches](Matches.png)
 
+### 🟦 League Standings
+
+![Standings](Standings.png)
+
 ### 🎯 Goals Data
 
 ![Goals](Goals.png)
-
-### 🧍 Players Data
-
-![Players](Players.png)
 
 ### 🏆 Top Scorers
 
@@ -81,10 +85,6 @@ This project covers the full pipeline:
 ### ⚠️ Own Goals
 
 ![Own Goals](Most_OG.png)
-
-### 🏟️ Teams
-
-![Teams](Teams.png)
 
 ---
 
