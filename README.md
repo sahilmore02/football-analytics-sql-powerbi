@@ -120,3 +120,11 @@ This project demonstrates:
 
 An end-to-end data analytics project showcasing:
 **Data Modeling → Data Analysis → Data Visualization**
+
+---
+
+## ⚠️ Note on Data
+
+The data used in this project is **synthetically generated for analytical purposes** and does not represent actual football matches or real-world statistics.
+
+Match results, player performances, and events (goals, assists, own goals) are designed to simulate realistic scenarios for demonstrating data modeling, analysis, and visualization techniques.
