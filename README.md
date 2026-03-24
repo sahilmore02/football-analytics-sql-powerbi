@@ -1,30 +1,40 @@
-# football_league_analytics
-
 # ⚽ Football League Analytics (SQL + Power BI)
 
 ## 📌 Overview
 
-This project focuses on building a football league analytics system using MySQL and visualizing insights through a Power BI dashboard.
+Built a complete football analytics system using MySQL and Power BI to analyze team performance, player statistics, and match-level data.
 
-It analyzes team performance, player statistics, and match-level data with realistic scenarios including assists, penalties, and own goals.
+This project covers the full pipeline:
+**Data Modeling → Data Analysis → Data Visualization**
 
 ---
 
 ## 🛠️ Tech Stack
 
-* MySQL (Database & SQL Queries)
+* MySQL (Data Modeling & Analysis)
 * Power BI (Dashboard & Visualization)
 
 ---
 
 ## 📊 Features
 
-* League Standings (Points, Wins, Losses, GD)
+* League Standings (Points, Wins, Draws, Losses, Goal Difference)
 * Top Goal Scorers
 * Most Assists
 * Goals + Assists (GA)
 * Own Goals Tracking
-* Match & Goal Analysis
+* Match & Goal Statistics
+
+---
+
+## 🧠 How Analysis is Done
+
+- League standings are calculated using SQL window functions based on points (3 for win, 1 for draw), goal difference, and goals scored  
+- Top scorers are derived by counting goals for each player while excluding own goals  
+- Assists are calculated from goal data where assist information is available  
+- Goals + Assists (GA) combines both metrics to measure overall player contribution  
+- Own goals are tracked separately to capture defensive errors and their impact on match outcomes  
+- SQL triggers are used to enforce real-world constraints such as preventing self-assists and disallowing assists on penalties  
 
 ---
 
@@ -66,7 +76,7 @@ It analyzes team performance, player statistics, and match-level data with reali
 
 ### 🔥 Goals + Assists
 
-![Goals+Assists](Most_GA.png)
+![GA](Most_GA.png)
 
 ### ⚠️ Own Goals
 
@@ -86,11 +96,11 @@ It analyzes team performance, player statistics, and match-level data with reali
 
 ## 🧠 Key Insights
 
-* Liverpool emerged as the top-performing team in the league
-* Barcelona showed weaker defensive performance with higher goals conceded
-* Haaland, Kane, and Salah dominated the scoring charts
-* Midfielders contributed significantly to assists
-* Own goals impacted match outcomes in multiple scenarios
+* Liverpool dominated the league with the highest points and consistent performance
+* Barcelona showed defensive weaknesses with higher goals conceded
+* Haaland, Kane, and Salah emerged as top goal scorers
+* Midfielders contributed significantly to assists and overall playmaking
+* Own goals influenced match outcomes in multiple scenarios
 
 ---
 
@@ -99,7 +109,7 @@ It analyzes team performance, player statistics, and match-level data with reali
 This project demonstrates:
 
 * Relational database design using SQL
-* Analytical querying using views
+* Analytical querying using views and aggregations
 * Data validation using triggers
 * Data visualization using Power BI
 
@@ -107,5 +117,5 @@ This project demonstrates:
 
 ## 📌 Conclusion
 
-An end-to-end data analytics project covering:
+An end-to-end data analytics project showcasing:
 **Data Modeling → Data Analysis → Data Visualization**
