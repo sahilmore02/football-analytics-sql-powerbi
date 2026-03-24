@@ -58,13 +58,13 @@ This project covers the full pipeline:
 
 ![Players](Players.png)
 
-### ⚽ Matches Data
-
-![Matches](Matches.png)
-
 ### 🟦 League Standings
 
 ![Standings](Standings.png)
+
+### ⚽ Matches Data
+
+![Matches](Matches.png)
 
 ### 🎯 Goals Data
 
