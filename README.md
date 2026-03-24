@@ -58,11 +58,11 @@ It analyzes team performance, player statistics, and match-level data with reali
 
 ### 🏆 Top Scorers
 
-![Most Goals](Most Goals.png)
+![Most Goals](Most_Goals.png)
 
 ### 🎯 Most Assists
 
-![Most_Assists](Most Assists.png)
+![Most Assists](Most_Assists.png)
 
 ### 🔥 Goals + Assists
 
