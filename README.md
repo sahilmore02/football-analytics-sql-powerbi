@@ -62,15 +62,15 @@ It analyzes team performance, player statistics, and match-level data with reali
 
 ### 🎯 Most Assists
 
-![Most Assists](Most Assists.png)
+![Most_Assists](Most Assists.png)
 
 ### 🔥 Goals + Assists
 
-![GA](Most Goals + Assists.png)
+![Goals+Assists](Most_GA.png)
 
 ### ⚠️ Own Goals
 
-![Own Goals](Most Own Goals.png)
+![Own Goals](Most_OG.png)
 
 ### 🏟️ Teams
 
