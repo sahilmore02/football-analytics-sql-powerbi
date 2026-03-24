@@ -91,7 +91,7 @@ This project covers the full pipeline:
 
 ## 📊 Power BI Dashboard
 
-![Dashboard](dashboardpowerbi.png)
+![Dashboard](PBI_dashboard.png)
 
 ---
 
