@@ -1,4 +1,5 @@
 # ⚽ Football League Analytics (SQL + Power BI)
+End-to-end football analytics project using SQL for data modeling & analysis and Power BI for visualization.
 
 ## 📌 Overview
 
